@@ -1,0 +1,29 @@
+.bottom-bar {
+  color: black;
+  padding: 10px;
+  height: 40px;
+  border-top: 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rights-reserved {
+  display: flex;
+  align-items: center;
+}
+
+.icons{
+  margin: 5px;
+  display: flex;
+  padding: 2px;
+}
+
+.c_link {
+  margin: 8px;
+}
+
+p {
+  margin: 4px;
+  font-size: 20px;
+}

@@ -15,5 +15,4 @@ import { AcademicModule } from './pages/academic/academic.module';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'Danichs.github.io';
 }

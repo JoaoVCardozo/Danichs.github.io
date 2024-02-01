@@ -5,8 +5,84 @@
   margin-left: 4px;
   margin-right: 4px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   }
+
+  .buttons {
+  width: 100%;
+  height: 50px;
+  background-color: transparent;
+  border-bottom: 2px solid white;
+}
+
+.button-alternation {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: rgba(217, 103, 4, 1);
+  background-color: transparent;
+  text-align: center;
+  font-size: 15px;
+  border-right: 2px solid white;
+}
+
+.button-alternation2 {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  margin-left: 100px;
+  border: none;
+  outline: none;
+  color: rgba(217, 103, 4, 1);
+  background-color: transparent;
+  text-align: center;
+  font-size: 15px;
+  border-right: 2px solid white;
+}
+
+.button-alternation3 {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  margin-left: 200px;
+  border: none;
+  outline: none;
+  color: rgba(217, 103, 4, 1);
+  background-color: transparent;
+  text-align: center;
+  font-size: 15px;
+  border-right: 2px solid white;
+}
+
+.button-alternation4 {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  margin-left: 300px;
+  border: none;
+  outline: none;
+  color: rgba(217, 103, 4, 1);
+  background-color: transparent;
+  text-align: center;
+  font-size: 15px;
+  border-right: 2px solid white;
+}
+
+.button-alternation5 {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  margin-left: 400px;
+  border: none;
+  outline: none;
+  color: rgba(217, 103, 4, 1);
+  background-color: transparent;
+  text-align: center;
+  font-size: 15px;
+  border-right: 2px solid white;
+}
 
 .textbox {
   display: flex;

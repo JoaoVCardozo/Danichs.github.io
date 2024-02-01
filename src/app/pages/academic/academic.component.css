@@ -1,0 +1,53 @@
+.content {
+  background-color: rgba(211, 211, 211, 1);
+  height: 820px;
+  border-radius: 15px;
+  margin-left: 4px;
+  margin-right: 4px;
+  display: flex;
+  align-items: center;
+  }
+
+.textbox {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.textwo {
+  display: flex;
+}
+
+.photo {
+  width: 400px;
+  height: 400px;
+  background-color: black;
+  border-radius: 50%;
+  margin-right: 150px;
+}
+h1 {
+  font-size: 100px;
+  margin-left: 50px;
+  margin-bottom: -25px;
+  font-family:'Bebas Neue', sans-serif;
+  letter-spacing: 3px;
+}
+
+h2 {
+  font-size: 90px;
+  margin-top: 0.5px;
+  margin-left: 90px;
+  margin-bottom: -25px;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 3px;
+  color: rgba(195, 1, 46, 1);
+}
+
+h3 {
+  margin-top: 0.5px;
+  margin-left: 130px;
+  font-size: 80px;
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 3px;
+}
+

@@ -8,6 +8,7 @@ import { ProjectsModule } from './pages/projects/projects.module';
 import { AcademicModule } from './pages/academic/academic.module';
 import { SharedModule } from './shared/shared.module';
 import { AppRoutingModule } from './app-routing.module';
+import { HomeModule } from './pages/home/home.module';
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     AppRoutingModule,
     CommonModule,
+    HomeModule,
     RouterModule,
     AboutMeModule,
     ProjectsModule,

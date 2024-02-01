@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { AboutMeComponent } from './about-me.component';
+import { SharedModule } from '../../shared/shared.module';
 
 
 
@@ -9,7 +10,7 @@ import { AboutMeComponent } from './about-me.component';
     AboutMeComponent
   ],
   imports: [
-    CommonModule
+    CommonModule, SharedModule
   ],
   exports:[
     AboutMeComponent

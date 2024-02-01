@@ -1,11 +1,11 @@
 .content {
-  background-color: rgba(211, 211, 211, 1);
+  background-color: rgba(0, 0, 0, 0.9);
   height: 935px;
   border-radius: 15px;
   margin-left: 4px;
   margin-right: 4px;
   display: flex;
-  align-items: center;
+  flex-direction: column;
   }
 
 .textbox {
@@ -16,6 +16,28 @@
 
 .textwo {
   display: flex;
+}
+
+.buttons {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(217, 103, 4, 1);
+  border-radius: 15px;
+}
+.button-alternation {
+  position: absolute;
+  height: 50px;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: rgba(217, 103, 4, 1);
+  background-color: transparent;
+  text-align: center;
+  font-size: 15px;
+}
+
+.button-alternation:hover {
+  color: red;
 }
 
 h1 {

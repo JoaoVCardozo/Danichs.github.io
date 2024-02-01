@@ -27,3 +27,7 @@ p {
   margin: 4px;
   font-size: 20px;
 }
+
+i:hover {
+  color: rgba(3, 120, 166, 1);
+}

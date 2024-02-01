@@ -3,12 +3,12 @@ button {
   font-size: 15px;
   outline: none;
   border: 0px;
-  background-color: black;
+  background-color: transparent;
   color: white;
 }
 
 button:hover {
-  color: red;
+  color: rgba(3, 120, 166, 1);
 }
 
 

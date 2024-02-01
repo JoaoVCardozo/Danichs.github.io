@@ -1,5 +1,5 @@
 .content {
-  background-color: rgba(211, 211, 211, 1);
+  background-color: rgba(0, 0, 0, 0.9);
   height: 935px;
   border-radius: 15px;
   margin-left: 4px;
@@ -31,6 +31,7 @@ h1 {
   margin-bottom: -25px;
   font-family:'Bebas Neue', sans-serif;
   letter-spacing: 3px;
+  color: rgba(217, 103, 4, 1);
 }
 
 h2 {
@@ -39,7 +40,7 @@ h2 {
   margin-bottom: -25px;
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 3px;
-  color: rgba(195, 1, 46, 1);
+  color: rgba(3, 120, 166, 1);
 }
 
 h3 {
@@ -47,5 +48,6 @@ h3 {
   font-size: 100px;
   font-family: 'Bebas Neue', sans-serif;
   letter-spacing: 3px;
+  color: rgba(217, 103, 4, 1);
 }
 

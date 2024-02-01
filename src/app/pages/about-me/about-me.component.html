@@ -3,10 +3,12 @@
 </div>
   <br>
 <div class="content">
-  <div class="textbox">
-    <h1>ABOUT-ME</h1>
+  <button class="button-alternation" (click)="alternarConteudo()">Sobre mim</button>
+  <div class="textbox" *ngIf="mostrarConteudoUm">
+    <h1>salve 1</h1>
   </div>
-  <div class="texttwo">
+  <div class="texttwo" *ngIf="!mostrarConteudoUm">
+    <h1>salve 2</h1>
   </div>
 </div>
   <br>

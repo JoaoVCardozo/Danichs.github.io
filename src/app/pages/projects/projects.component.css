@@ -1,6 +1,6 @@
 .content {
   background-color: rgba(211, 211, 211, 1);
-  height: 820px;
+  height: 935px;
   border-radius: 15px;
   margin-left: 4px;
   margin-right: 4px;
@@ -18,13 +18,6 @@
   display: flex;
 }
 
-.photo {
-  width: 400px;
-  height: 400px;
-  background-color: black;
-  border-radius: 50%;
-  margin-right: 150px;
-}
 h1 {
   font-size: 100px;
   margin-left: 50px;

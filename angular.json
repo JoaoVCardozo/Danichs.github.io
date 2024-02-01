@@ -3,9 +3,19 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "Danichs.github.io": {
+    "danichs.github.io": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@schematics/angular:component": {
+          "standalone": false
+        },
+        "@schematics/angular:directive": {
+          "standalone": false
+        },
+        "@schematics/angular:pipe": {
+          "standalone": false
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",
@@ -21,7 +31,7 @@
             ],
             "tsConfig": "tsconfig.app.json",
             "assets": [
-              "src/iconsite.ico",
+              "src/assets/iconsite.ico",
               "src/assets"
             ],
             "styles": [
@@ -57,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "Danichs.github.io:build:production"
+              "buildTarget": "danichs.github.io:build:production"
             },
             "development": {
-              "buildTarget": "Danichs.github.io:build:development"
+              "buildTarget": "danichs.github.io:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -68,7 +78,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "buildTarget": "Danichs.github.io:build"
+            "buildTarget": "danichs.github.io:build"
           }
         },
         "test": {
@@ -96,6 +106,6 @@
     }
   },
   "cli": {
-    "analytics": "d53f196b-4851-49c7-b65b-1065a2fec404"
+    "analytics": "c60a8eb1-b815-4e85-aa3d-061865ff899b"
   }
 }

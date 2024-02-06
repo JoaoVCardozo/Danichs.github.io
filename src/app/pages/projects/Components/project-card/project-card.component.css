@@ -1,0 +1,22 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 170px;
+    height: 170px;
+}
+
+.img {
+    width: 160px;
+    height: 160px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+a {
+    font-size: 15px;
+    color: white;
+}

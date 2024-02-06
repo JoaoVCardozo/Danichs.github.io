@@ -3,18 +3,46 @@
 </div>
   <br>
 <div class="content">
+  <!--botões que alternam entre os projetos de cada linguagem-->
   <div class="buttons">
-    <button class="button-alternation">Angular</button>
-    <button class="button-alternation2">C/C++</button>
-    <button class="button-alternation3">Java</button>
-    <button class="button-alternation4">C#</button>
-    <button class="button-alternation5">Python</button>
+    <app-language-button (click)="AngularFunction()" label="Angular"></app-language-button>
+    <app-language-button (click)="TypescriptFunction ()" label="Typescript"></app-language-button>
+    <app-language-button (click)="JavascriptFunction ()" label="Javascript"></app-language-button>
+    <app-language-button (click)="JavaFunction ()" label="Java"></app-language-button>
+    <app-language-button (click)="CFunction ()" label="C/C++"></app-language-button>
+    <app-language-button (click)="CsharpFunction ()" label="C#"></app-language-button>
+    <app-language-button (click)="SQLFunction ()" label="SQL"></app-language-button>
+    <app-language-button (click)="PythonFunction ()" label="Python"></app-language-button>
   </div>
-  <div class="textbox">
-    <h1>PROJETOS</h1>
+  <!--divs que alternam conforme os botões são pressionados para exibir os projetos de cada linguagem-->
+<div class="languageContent">
+  <div class="LanguageBox" *ngIf="AngularProjects">
+    <app-project-card label="Página pessoal"></app-project-card>
+    <h1>Angular</h1>
   </div>
-  <div class="texttwo">
+  <div class="LanguageBox" *ngIf="TypescriptProjects">
+    <h1>Typescript</h1>
   </div>
+  <div class="LanguageBox" *ngIf="JavascriptProjects">
+    <h1>Javascript</h1>
+  </div>
+  <div class="LanguageBox" *ngIf="JavaProjects">
+    <app-project-card [imageUrl]="''" [linkUrl]="'https://www.google.com'" label="API-Rest"></app-project-card>
+    <h1>Java</h1>
+  </div>
+  <div class="LanguageBox" *ngIf="CProjects">
+    <h1>C/C++</h1>
+  </div>
+  <div class="LanguageBox" *ngIf="CsharpProjects">
+    <h1>C#</h1>
+  </div>
+  <div class="LanguageBox" *ngIf="SQLProjects">
+    <h1>SQL</h1>
+  </div>
+  <div class="LanguageBox" *ngIf="PythonProjects">
+    <h1>Python</h1>
+  </div>
+</div>
 </div>
   <br>
 <div class="lbar">

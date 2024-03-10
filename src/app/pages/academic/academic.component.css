@@ -1,5 +1,5 @@
 .content {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: #5E0C12;
   height: 935px;
   border-radius: 15px;
   margin-left: 4px;
@@ -21,7 +21,7 @@
   width: 100px;
   border: none;
   outline: none;
-  color: rgba(217, 103, 4, 1);
+  color: #FCFCFF;
   background-color: transparent;
   text-align: center;
   font-size: 15px;
@@ -35,7 +35,7 @@
   margin-left: 100px;
   border: none;
   outline: none;
-  color: rgba(217, 103, 4, 1);
+  color: #FCFCFF;
   background-color: transparent;
   text-align: center;
   font-size: 15px;
